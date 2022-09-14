@@ -70,7 +70,6 @@ function Searchchars({ CharactorData, ApiError }) {
           </InputLabel>
           <Select
             sx={{ m: 2, minWidth: 180 }}
-            InputLabel="ffds"
             labelId="demo-simple-select-autowidth-label"
             id="demo-simple-select-autowidth"
             value={1}
