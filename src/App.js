@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+/** @format */
 
-function App() {
+import * as React from "react";
+import Box from "@mui/material/Box";
+import Card from "@mui/material/Card";
+import Cardcontainer from "./Components/Cardinfo/Cardcontainer";
+import Errboundary from "./Components/Errorboundary/Errboundary";
+
+const bull = (
+  <Box
+    component="span"
+    sx={{ display: "flex", mx: "2px", transform: "scale(0.8)" }}
+  ></Box>
+);
+
+export default function BasicCard() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Errboundary>
+        <Cardcontainer />
+      </Errboundary>
     </div>
   );
 }
-
-export default App;

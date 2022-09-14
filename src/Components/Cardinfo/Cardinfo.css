@@ -1,0 +1,77 @@
+/** @format */
+.CardContent {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: auto;
+}
+.cardInfoBgv {
+  color: #fff;
+  background: #323131;
+  box-shadow: 0 0 10px #000;
+  padding: auto;
+}
+.js16 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.charTitle {
+  font-size: 26px;
+  font-weight: 400;
+  white-space: nowrap;
+  width: 100%;
+}
+.Filterarea {
+  display: flex;
+  padding: 7px;
+  box-shadow: 0 0 11px #000;
+}
+.js19 {
+  width: 100%;
+}
+.charCreated {
+  width: 100%;
+  bottom: 0;
+  padding: 12px;
+  position: relative;
+  background: rgba(0, 0, 0, 0.75);
+}
+.js20 {
+  padding: 5px;
+  margin: 0;
+  box-sizing: border-box;
+}
+.typeTitleinfo {
+  color: #ff9800;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 13px;
+}
+.searchBarHeader {
+  width: 100%;
+  padding: 17px;
+  background: #3f51b5;
+  color: #fff;
+  box-shadow: 0 0 10px #000;
+}
+.typeTitle {
+  font-size: 13px;
+  display: flex;
+  padding: 10px 0;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  justify-content: space-between;
+}
+.searchBar {
+  margin: 12px 0;
+  align-items: center;
+  justify-content: left;
+  padding: 0 30px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
